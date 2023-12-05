@@ -5,5 +5,5 @@ if test -d ./build; then
 fi
 mkdir build
 cd ./build
-cmake .. -DCMAKE_TOOLCHAIN_FILE=/home/qy101/Desktop/vcpkg/scripts/buildsystems/vcpkg.cmake
+cmake .. 
 make
